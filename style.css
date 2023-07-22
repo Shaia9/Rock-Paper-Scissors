@@ -1,0 +1,36 @@
+body {
+    display: block;
+    justify-content: center;
+    background-color: darkslategrey;
+}
+.title {
+    text-align: center;
+    padding-top: 4rem;
+}
+h1 {
+    text-align: center;
+}
+.me {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    margin: 3rem;
+    flex-wrap: wrap;
+}
+.comp {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    margin: 3rem;
+    flex-wrap: wrap
+}
+h2 {
+    text-align: center;
+}
+img {
+    height: 8rem;
+    width: auto;
+    justify-self: flex-start;
+}
