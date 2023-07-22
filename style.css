@@ -1,36 +1,31 @@
 body {
-    display: block;
-    justify-content: center;
     background-color: darkslategrey;
-}
-.title {
-    text-align: center;
-    padding-top: 4rem;
-}
-h1 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-.me {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 10rem;
-    margin: 3rem;
-    flex-wrap: wrap;
+
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    background-color: cyan;
+    margin-top: 10px;
 }
-.comp {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 10rem;
-    margin: 3rem;
-    flex-wrap: wrap
+
+#your-choice {
+    width: 240px;
+    height: 240px;
+    background-color: yellow;
+    margin-top: 10px;
 }
-h2 {
-    text-align: center;
+#choices {
+    width: 240px;
+    height: 80px;
+    /*background-color: green;*/
+    margin-top: 10px;
+    margin: 0 auto;
 }
-img {
-    height: 8rem;
-    width: auto;
-    justify-self: flex-start;
+#choices img {
+    width: 80px;
+    height: 80px;
+
 }
